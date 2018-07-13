@@ -1,0 +1,54 @@
+#mainLogo {
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+#indexMain {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#indexMain > * {
+    flex: 1 1 100px;
+}
+
+#indexMain h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#indexMain p {
+    text-align: justify;
+    margin: 15px;
+}
+
+#footerUl {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+#footerUl li {
+    list-style-type: none;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#footerUl li a i {
+    zoom: 200%;
+}
+
+#footerNav {
+    display: flex;
+}
+
+#footerNav span {
+    margin-left: 45px;
+    color: #319642;
+}
+
+#footerRight {
+    position: absolute;
+    right: 0;
+}    
